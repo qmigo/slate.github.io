@@ -81,9 +81,9 @@ function del()
     final="";
 }
 
-canvas.addEventListener('mousedown',down);
-canvas.addEventListener('mousemove',move);
-canvas.addEventListener('mouseup',up);
+canvas.addEventListener('pointerdown',down);
+canvas.addEventListener('pointermove',move);
+canvas.addEventListener('pointerup',up);
 
 function color(){
     randomColor = Math.floor(Math.random()*16777215).toString(16);
